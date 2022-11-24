@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Revno",
+            "request": "launch",
+            "mainClass": "Revno",
+            "projectName": "src_9e3ca9c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapSort",
+            "request": "launch",
+            "mainClass": "SwapSort",
+            "projectName": "src_9e3ca9c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch alter",
+            "request": "launch",
+            "mainClass": "alter",
+            "projectName": "src_9e3ca9c2"
+        },
+        {
+            "type": "java",
+            "name": "Launch circularprime",
+            "request": "launch",
+            "mainClass": "circularprime",
+            "projectName": "src_9e3ca9c2"
+        }
+    ]
+}
