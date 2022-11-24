@@ -9,9 +9,10 @@ class Revno
     }
     void input()
     {
-       Scanner sc = new Scanner(System.in);
-            System.out.print("Enter the String: ");
-            num = sc.nextInt();
+       try (Scanner sc = new Scanner(System.in)) {
+        System.out.print("Enter the String: ");
+        num = sc.nextInt();
+    }
     }
     void reverse()
     {

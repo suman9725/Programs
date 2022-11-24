@@ -31,6 +31,7 @@ class circularprime
             lnum = a%10; // 131 | 1
             fnum = a/10;
             a = (int)(Math.pow(10,l-1)*lnum)+fnum;
+            System.out.println(a);
             if(a==x)
             {
                 return true;
@@ -41,16 +42,17 @@ class circularprime
 
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number");
-        int n = sc.nextInt();
-        if(isCircular(n))
-        {
-            System.out.println("Number is Circular");
-        }
-        else
-        {
-            System.out.println("Not a circular");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the number");
+            int n = sc.nextInt();
+            if(isCircular(n))
+            {
+                System.out.println("Number is Circular");
+            }
+            else
+            {
+                System.out.println("Not a circular");
+            }
         }
     }
 }

@@ -13,9 +13,10 @@ class alter
     }
     void input()
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String: ");
-        s=sc.nextLine();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the String: ");
+            s=sc.nextLine();
+        }
     }
     void alternate()
     {

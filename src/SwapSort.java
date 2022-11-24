@@ -14,9 +14,10 @@ class SwapSort
     }
     void read()
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String: ");
-        wrd = sc.nextLine();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the String: ");
+            wrd = sc.nextLine();
+        }
         wrd=wrd.toUpperCase();
     }
     void swapChar()
